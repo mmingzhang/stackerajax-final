@@ -127,7 +127,7 @@ var getInspiration = function(tags) {
 					site: 'stackoverflow'};
 	
 	var result = $.ajax({
-		url: "http://api.stackexchange.com/2.2//tags/" + tags + "/top-askers/all_time",
+		url: "http://api.stackexchange.com/2.2//tags/" + tags + "/top-answerers/all_time",
 		data: request,
 		dataType: "jsonp",
 		type: "GET",
